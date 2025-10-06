@@ -58,6 +58,7 @@ const Login = () => {
           <CardDescription className="text-center">
             {requires2FA ? 'Enter your 2FA code sent via SMS' : 'Sign in to your account'}
           </CardDescription>
+          <p className="mt-2 text-sm text-muted-foreground text-center">Hello world</p>
         </CardHeader>
         <CardContent>
           {!requires2FA ? (
