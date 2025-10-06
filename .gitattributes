@@ -1,0 +1,15 @@
+* text=auto eol=lf
+
+# Treat these as binary (no LF conversion)
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.pdf binary
+*.mp4 binary
+*.mov binary
+*.zip binary
+*.gz binary
+*.woff binary
+*.woff2 binary
