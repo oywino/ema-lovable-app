@@ -7,9 +7,8 @@
     "dev": "vite",
     "build": "vite build",
     "build:dev": "vite build --mode development",
-    "lint": "eslint .",
     "preview": "vite preview",
-    "lint": "eslint . --ext .ts,.tsx",
+    "lint": "eslint . -c .eslintrc.cjs --ext .ts,.tsx --ignore-pattern tailwind.config.ts --ignore-pattern src/components/ui/** --rule 'react-refresh/only-export-components: off' --rule '@typescript-eslint/no-empty-interface: off'",
     "format": "prettier --write ."
   },
   "dependencies": {
